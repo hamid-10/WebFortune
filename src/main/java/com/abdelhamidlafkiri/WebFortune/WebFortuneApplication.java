@@ -9,8 +9,12 @@ public class WebFortuneApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(WebFortuneApplication.class, args);
+//		Populate the Epigram List with Data (quotes) once the backend is running
+//		This will be done only once, after that the epigrams are stored in an array
 		Epigram.populateEpigramList();
-		System.out.println("WebFortuneApplication.main");
+
+//		check backend running
+		System.out.println("WebFortuneApplication Up and Running");
 	}
 
 }

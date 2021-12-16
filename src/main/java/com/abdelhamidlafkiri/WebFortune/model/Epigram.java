@@ -19,6 +19,8 @@ public class Epigram {
         return text;
     }
 
+//  Iterate through the epigrams in the quotes.txt file and add them to an ArrayList
+//  This method will be called one time from the main method
     public static void populateEpigramList() {
         Scanner read = null;
         try {
@@ -36,6 +38,7 @@ public class Epigram {
         }
     }
 
+//    Shuffle the list of epigrams first, then take the first element
     public static String getRandomText() {
         Collections.shuffle(epigramList);
         return epigramList.get(0).getText();
