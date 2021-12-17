@@ -14,7 +14,7 @@ public class WebFortuneApplication {
 		Epigram.populateEpigramList();
 
 //		check backend running
-		System.out.println("WebFortuneApplication Up and Running");
+		System.out.println("Web Fortune backend Up and Running");
 	}
 
 }
